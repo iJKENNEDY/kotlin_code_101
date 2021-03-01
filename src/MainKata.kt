@@ -29,7 +29,13 @@ fun main() {
     lineaSeparacion("•○",12)
     var skills = arrayOf("Programador ninja","DevOps mobile", " econimics")
     variosArgumentos("soy",*skills)
+
+    lineaSeparacion("#-#",9)
+    var sum2 = suma(123,434)
+    println(sum2)
 }
+
+fun suma(n1:Int, n2:Int)= n1+n2
 
 fun variosArgumentos(greeting:String, vararg itemsToGreet: String ){
 
