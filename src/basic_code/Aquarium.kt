@@ -30,13 +30,13 @@ val lazyNumber: Int by lazy {
     println("mi,,ber")
     333
 }
-fun main() {
-
-//    println("%.0f".format(29.0%12.3))
-//    val b = BaseImp(12)
-//    Derived(b).printMessage()
-//    Derived(b).printMessageLine()
-    println(lazyValue)
-    println(lazyValue)
-    println(lazyNumber)
-}
+//fun main() {
+//
+////    println("%.0f".format(29.0%12.3))
+////    val b = BaseImp(12)
+////    Derived(b).printMessage()
+////    Derived(b).printMessageLine()
+//    println(lazyValue)
+//    println(lazyValue)
+//    println(lazyNumber)
+//}

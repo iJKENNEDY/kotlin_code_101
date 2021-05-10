@@ -1,9 +1,9 @@
 package basic_code
 
-fun main() {
-    val collecCity = Collections()
-    collecCity.collectionsCity()
-}
+//fun main() {
+//    val collecCity = Collections()
+//    collecCity.collectionsCity()
+//}
 
 
 

@@ -1,39 +1,39 @@
 import java.util.*
 
-fun main() {
-    //-lineaSeparacion("-")
-    //-arraysBoleanos()
-    //lineaSeparacion("*")
-    //itercionArray()
-    //lineaSeparacion("$")
-    //crearMatriz()
-    //arraysDoubles()
-
-    lineaSeparacion()
-    lineaSeparacion("-0-",11)
-   // repeticiones2()
-    arraysIndices()
-    lineaSeparacion()
-
-
-   // misFrutas()
-
-    lineaSeparacion("-%-", 11)
-    autosFavoritosForEach()
-    lineaSeparacion("♠",11)
-    codeLanguageForIndex()
-
-    lineaSeparacion("♥♣", 6)
-    mapGanador()
-
-    lineaSeparacion("•○",12)
-    var skills = arrayOf("Programador ninja","DevOps mobile", " econimics")
-    variosArgumentos("soy",*skills)
-
-    lineaSeparacion("#-#",9)
-    var sum2 = suma(123,434)
-    println(sum2)
-}
+//fun main() {
+//    //-lineaSeparacion("-")
+//    //-arraysBoleanos()
+//    //lineaSeparacion("*")
+//    //itercionArray()
+//    //lineaSeparacion("$")
+//    //crearMatriz()
+//    //arraysDoubles()
+//
+//    lineaSeparacion()
+//    lineaSeparacion("-0-",11)
+//   // repeticiones2()
+//    arraysIndices()
+//    lineaSeparacion()
+//
+//
+//   // misFrutas()
+//
+//    lineaSeparacion("-%-", 11)
+//    autosFavoritosForEach()
+//    lineaSeparacion("♠",11)
+//    codeLanguageForIndex()
+//
+//    lineaSeparacion("♥♣", 6)
+//    mapGanador()
+//
+//    lineaSeparacion("•○",12)
+//    var skills = arrayOf("Programador ninja","DevOps mobile", " econimics")
+//    variosArgumentos("soy",*skills)
+//
+//    lineaSeparacion("#-#",9)
+//    var sum2 = suma(123,434)
+//    println(sum2)
+//}
 
 fun suma(n1:Int, n2:Int)= n1+n2
 
