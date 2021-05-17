@@ -6,3 +6,4 @@ data class Marcadore(
     val latitude: Double,
     val longitude: Double
 )
+

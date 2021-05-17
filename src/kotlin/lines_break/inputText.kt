@@ -39,7 +39,7 @@ fun textTrim(){
         | esta es la tercera linea
     """.trimMargin()
     println(stringBanner)
-    lineaSeparacion()
+
     println(txtBanner)
 }
 

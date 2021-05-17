@@ -1,18 +1,12 @@
-import dataClasses.Perros
 import decor.makeDecoration
 import decor.makeDecoration2
-import estadistaca_probabilidades.Probabilidades
-import kt_101.BasicosCode
-import kt_101.Estructuras_datos
-import kt_101.Funciones101
 
-import lines_break.PrintPoints
-import lines_break.baner
+import kt_101.BasicosCode
+
 import oop.Aquarium
 import oop.Plecostomus
 import oop.Shark
 import oop.ToweTank
-import opp2.Car_777
 import opp2.Persona777
 import pairs_triples.pairsExample
 import pairs_triples.tripleExample
@@ -31,8 +25,6 @@ fun main() {
     val fun111 = Funciones_111()
   //  fun111.inputVariables()
 
-    val probabilidad = Probabilidades()
-   // probabilidad.numerosAleatorios()
 
     val basic101 = BasicosCode()
     //basic101.comparacionesBool()
@@ -87,73 +79,6 @@ fun main() {
 
 
 }
-fun func_car(){
-    val listaCars: MutableList<Car_777> = mutableListOf()
-    val car2 = Car_777("BZK","b777","blue","CF4-0I4",4)
-    val car3 = Car_777("HUMMER","b777","blue","CF4-0I4",4)
-    val car4 = Car_777("KENZKOR","b777","blue","CF4-0I4",4)
-    val car5 = Car_777("ZAROK","b777","blue","CF4-0I4",4)
-
-     println("marca: ${car2.marca}, \nmodelo: ${car2.modelo}" +
-             "\ncolor: ${car2.color}\nplaca: ${car2.placa}\nn° puertas: ${car2.nPuertas}")
-
-    println("........................")
-    listaCars.add(car4)
-    listaCars.add(car3)
-    listaCars.add(car2)
-    listaCars.add(car5)
-
-    for (item in listaCars){
-        println("marca: ${item.marca} \npuertas: ${item.nPuertas}")
-    }
-    println("........................")
-    val car6 = Car_777("KILLBILL","Fep32","green","VFD-4FF",0)
-    println("car: ${car6.marca} \nnumPuertas: ${car6.nPuertas} " +
-            "\nplaca: ${car6.placa}")
-    println("________________________")
-    val car7 = Car_777("KILLBILL","JKHZ-22","green","YUS-23D",0)
-    println("car: ${car7.marca} \nnumPuertas: ${car7.nPuertas} " +
-            "\nplaca: ${car7.placa} \nmodelo: ${car7.modelo}")
-
-}
-
-fun iniciarPersona777(){
-    println("--------- oop ----------")
-    var persona777:Persona777 = Persona777("5904304","Fatima",
-        -21, "599999999")
-    persona777.imprimirDatos()
-    println("---------------------------")
-    var persona771:Persona777 = Persona777("5895555","Balkor",
-        18, "85555444")
-    persona771.imprimirDatos()
-    /*
-    var listaPersonas: MutableList<Persona777> = mutableListOf()
-    listaPersonas.add(persona777)
-    listaPersonas.add(Persona777("111111","Jenny", 25, "5546453"))
-    listaPersonas.add(Persona777("222222","Greyc", 45, "5546453"))
-    listaPersonas.add(Persona777("333333","Lenny", 15, "5546453"))
-    listaPersonas.add(Persona777("444444","Patry", 65, "5546453"))
-    listaPersonas.add(Persona777("555555","Redy", 34, "5546453"))
-    listaPersonas.add(Persona777("666666","Holly", 93, "5546453"))
-    listaPersonas.add(Persona777("777777","Linlin", 25, "5546453"))
-
-    println(listaPersonas)
-    for (pers in listaPersonas){
-        println("#${pers.imprimirDatos()}")
-    }*/
-
-//    persona777.nombre = "Jkennedt"
-//    persona777.documento = "9030043"
-//    persona777.edad = 20
-//    persona777.telefono = "9400000"
-
-//    println("El nombre de la persona es ${persona777.nombre}")
-//    persona777.caminar()
-//    persona777.imprimirDatos()
-
-}
-
-
 fun buildExtensionTest(){
     pairsExample()
     tripleExample()
@@ -177,7 +102,6 @@ fun makeFish(){
     println("shark color ${testShark.color}")
     testShark.eat()
 
-    lineaSeparacion()
 
     println("plecostomus ${testPlecostomus.color}")
     testPlecostomus.eat()
@@ -263,7 +187,7 @@ fun lineaSubTema(subtema: String="tema vacio"){
     println("==> $subtema ")
 }
 
-fun lineaSeparacion(puntos: String="♣", cantidad:Int=18){
+fun lineaSeparacion2(puntos: String="♣", cantidad:Int=18){
     repeat(cantidad){
         print(puntos)
     }
