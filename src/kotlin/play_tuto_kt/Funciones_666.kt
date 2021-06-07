@@ -16,6 +16,8 @@ class MutableStack<E>(vararg items: E){
 
 class Funciones_666 {
 
+
+
     fun printMessage(message: String): Unit{
         println(message)
     }

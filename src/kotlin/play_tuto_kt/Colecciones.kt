@@ -3,9 +3,6 @@ package play_tuto_kt
 class Colecciones {
 
 
-
-
-
     fun flatMaps(){
         val fruitsBag = listOf("orange","apple","banana","grapes")
         val clotesBag = listOf("shirts","jeans","pans")
